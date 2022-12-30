@@ -1,6 +1,7 @@
 # chess
-chess game i made, this is the client code. there's a server running and the chess.exe should connect and work fine with it
-there's an .exe file if you want to play on my server.
+chess game i made, this is the client code. there was a server running but it is currently closed so chess.exe wont work anymore.
+
+to run the code you need to run the main_server code on a local computer and then run main_client on 2 different clients in the local network. make sure to change the ip adress of the server on the main_client code to the actuall one :D.
 
 chess_objects.py and chess_utilities.py 
 have all of logic of the chess game itself (like moves, checkmate chescks, stalemate and stuff like that so you can use it for whatever.
