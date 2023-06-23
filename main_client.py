@@ -183,7 +183,7 @@ def handle_graphic_input(board, input_q, comm, ended):
 def main():
 
     with open("server_ip.txt", "r") as fp:
-        server_ip = fp.read()
+        server_ip = fp.read().strip()
 
     # get pieces
     board = chess_objects.Board()

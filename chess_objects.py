@@ -1,4 +1,4 @@
-from images import *
+# from images import *
 
 
 class Piece:
